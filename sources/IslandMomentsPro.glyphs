@@ -172581,16 +172581,7 @@ note = Robbie;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = IslandMoments;
-},
-{
-name = postscriptFontName;
-value = IslandMoments;
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "0027A263-E542-4E44-90C9-E4382CD4DF90" = 1;
 };
