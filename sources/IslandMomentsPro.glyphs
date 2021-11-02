@@ -1,5 +1,8 @@
 {
 .appVersion = "1352";
+DisplayStrings = (
+"/.notdef"
+);
 copyright = "Copyright 2013-2021 The Island Moments Project Authors (https://github.com/googlefonts/island-moments)";
 customParameters = (
 {
@@ -23,9 +26,8 @@ name = glyphOrder;
 value = (
 .notdef,
 CR,
-NULL,
-space,
-nbspace
+.null,
+space
 );
 },
 {
@@ -213,13 +215,83 @@ xHeight = 255;
 glyphs = (
 {
 glyphname = .notdef;
+lastChange = "2021-11-02 02:14:36 +0000";
 layers = (
 {
 layerId = "0027A263-E542-4E44-90C9-E4382CD4DF90";
-width = 225;
+paths = (
+{
+closed = 1;
+nodes = (
+"443 -5 LINE",
+"454 7 LINE",
+"454 575 LINE",
+"443 587 LINE",
+"52 587 LINE",
+"40 575 LINE",
+"40 7 LINE",
+"52 -5 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"147 139 LINE",
+"230 292 LINE",
+"147 443 LINE",
+"158 465 LINE",
+"241 314 LINE",
+"326 466 LINE",
+"339 443 LINE",
+"253 290 LINE",
+"339 139 LINE",
+"326 117 LINE",
+"241 267 LINE",
+"158 117 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"66 561 LINE",
+"430 561 LINE",
+"430 21 LINE",
+"66 21 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"407 40 LINE",
+"407 538 LINE",
+"87 538 LINE",
+"87 40 LINE"
+);
+}
+);
+width = 494;
 }
 );
 note = .notdef;
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = "0027A263-E542-4E44-90C9-E4382CD4DF90";
+width = 600;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = .null;
+layers = (
+{
+layerId = "0027A263-E542-4E44-90C9-E4382CD4DF90";
+width = 600;
+}
+);
 },
 {
 glyphname = space;
@@ -231,17 +303,6 @@ width = 225;
 );
 note = space;
 unicode = 0020;
-},
-{
-glyphname = nbspace;
-layers = (
-{
-layerId = "0027A263-E542-4E44-90C9-E4382CD4DF90";
-width = 225;
-}
-);
-note = nbspace;
-unicode = 00A0;
 },
 {
 glyphname = A;
@@ -133277,6 +133338,19 @@ width = 376;
 }
 );
 unicode = 27E9;
+},
+{
+glyphname = nbspace;
+lastChange = "2021-11-02 02:13:28 +0000";
+layers = (
+{
+layerId = "0027A263-E542-4E44-90C9-E4382CD4DF90";
+width = 225;
+}
+);
+widthMetricsKey = space;
+note = nbspace;
+unicode = 00A0;
 },
 {
 glyphname = cedi;
