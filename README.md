@@ -2,7 +2,7 @@
 
 Take a trip to a tropical paradise. This brush style font has an exotic appeal with alternate uppercase characters borrowed from the font, Babylonica. This OpenType Pro version offers extra alternate characters.
 
-![Sample Image](Documentation/image1.png)
+![Sample Image](documentation/image1.png)
 
 ## Building the Fonts
 
